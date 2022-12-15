@@ -7,29 +7,28 @@ using UnityEngine.SceneManagement;
 public class UIResult : MonoBehaviour
 {
 
-    [SerializeField] Text totalscore;
-    [SerializeField] Text average;
     [SerializeField] Text grade;
+    [SerializeField] Text Answer;
     [SerializeField] Button btnToMain;
 
     void Start()
     {
         UIManager.GetInstance().SetEventSystem();
         GetScore();
-        btnToMain.onClick.AddListener(OnClickReset);      
+        btnToMain.onClick.AddListener(OnClickMain);
+        
     }
 
     public void GetScore()
     {
-        totalscore.text = $"Total Score\n{ResultManager.GetInstance().totalScore}";
-        average.text = $"Average\n{ResultManager.GetInstance().GetAverage()}";
-        grade.text = $"Grade\n{ResultManager.GetInstance().Grade()}";
+        grade.text = $"{ResultManager.instance.totalScore}Á¡!{ResultManager.GetInstance().Grade()}";
+        Answer.text = $"{ResultManager.GetInstance().Answer()}";
+            
     }
 
-    public void OnClickReset()
+    public void OnClickMain()
     {
         UIManager.GetInstance().ClearList();
         SceneManager.LoadScene("Main");
     }
-
 }

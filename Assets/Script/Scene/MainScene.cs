@@ -12,9 +12,10 @@ public class MainScene : MonoBehaviour
         uimanager.SetEventSystem();
         uimanager.OpenUI("MainUI");
 
+        
         ResultManager.GetInstance();
         TestManager.GetInstance();
-
+        ResultManager.instance.totalScore = 0;
     }
 
 }

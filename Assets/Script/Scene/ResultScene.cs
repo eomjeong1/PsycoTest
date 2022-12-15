@@ -8,7 +8,7 @@ public class ResultScene : MonoBehaviour
     {
         UIManager uimanager = UIManager.GetInstance();
         uimanager.SetEventSystem();
-        uimanager.OpenUI("UIResult");
+        uimanager.OpenUI("ResultUI");
     }
 
 }

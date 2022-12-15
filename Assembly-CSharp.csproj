@@ -57,18 +57,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\Manager\TestManager.cs" />
-    <Compile Include="Assets\Script\BtnManager.cs" />
-    <Compile Include="Assets\Script\Manager\UIManager.cs" />
+    <Compile Include="Assets\Script\UI\UIChapter.cs" />
     <Compile Include="Assets\Script\Manager\ResultManager.cs" />
+    <Compile Include="Assets\Script\UI\UIResult.cs" />
+    <Compile Include="Assets\Script\Scene\ResultScene.cs" />
+    <Compile Include="Assets\Script\UI\UIQuiz.cs" />
     <Compile Include="Assets\Script\QuizGen.cs" />
     <Compile Include="Assets\Script\UI\UIMain.cs" />
-    <Compile Include="Assets\Script\UI\UIResult.cs" />
-    <Compile Include="Assets\Script\UI\UIQuiz.cs" />
-    <Compile Include="Assets\Script\Scene\MainScene.cs" />
-    <Compile Include="Assets\Script\Scene\ResultScene.cs" />
-    <Compile Include="Assets\Script\Scene\TestScene.cs" />
+    <Compile Include="Assets\Script\Manager\UIManager.cs" />
+    <Compile Include="Assets\Script\BtnManager.cs" />
+    <Compile Include="Assets\Script\Manager\SoundManager.cs" />
     <Compile Include="Assets\Script\Scene\ChapterScene.cs" />
-    <Compile Include="Assets\Script\UI\UIChapter.cs" />
+    <Compile Include="Assets\Script\Scene\TestScene.cs" />
+    <Compile Include="Assets\Script\Scene\MainScene.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
