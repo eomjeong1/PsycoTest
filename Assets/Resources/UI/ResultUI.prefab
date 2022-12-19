@@ -58,7 +58,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0.4198113, b: 0.4198113, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -66,7 +66,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 6ce3dad3484dfc44aa788985bc0f25ad, type: 3}
+    m_Font: {fileID: 12800000, guid: 4dbeb0d2a67af0f4bb7ee8bb4d721604, type: 3}
     m_FontSize: 80
     m_FontStyle: 0
     m_BestFit: 0
